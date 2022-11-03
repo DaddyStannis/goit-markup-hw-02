@@ -9,8 +9,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--main-text-color);
     letter-spacing: 0.03em;
+    color: var(--main-text-color);
 }
 
 .link {
@@ -35,7 +35,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    text-decoration: none;
 }
 
 .header-logo-left {
@@ -46,11 +45,19 @@ body {
     color: var(--main-text-color);
 }
 
-.header-item {
+.menu-item {
+    color: var(--main-text-color);
+}
+
+.item {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+
+.contact {
+    color: var(--secondary-text-color);
 }
 
 .title-section {
@@ -86,14 +93,14 @@ body {
     color: var(--text-color-on-dark-bg);
 }
 
-.qualities-section-item h3 {
+.quality-name {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
 
-.qualities-section-item p {
+.quality-description {
     font-size: 14px;
     line-height: 1.71;
 
@@ -107,11 +114,11 @@ body {
     text-align: center;
 }
 
-.our-team-section {
+.staff {
     background: #F5F4FA;
 }
 
-.our-team-members img {
+.staff-photo {
     background: var(--secondary-text-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
                 0px 1px 1px rgba(0, 0, 0, 0.14), 
@@ -119,13 +126,13 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 
-.our-team-members h3 {
+.staff-name {
     font-weight: 500;
     line-height: 1.18;
     text-align: center;
 }
 
-.our-team-members p {
+.staff-position {
     line-height: 1.18;
     text-align: center;
 
@@ -180,14 +187,21 @@ body {
     cursor: pointer;
     font-family: inherit;
 
-    font-style: 500;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    border-radius: 4px;
 }
 
 .filter-button:hover {
     background-color: var(--interactive-color);
     color: var(--text-color-on-dark-bg);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+            0px 1px 2px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter-title {
