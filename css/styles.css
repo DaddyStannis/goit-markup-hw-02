@@ -79,6 +79,7 @@ body {
     cursor: pointer;
     font-family: inherit;
 
+    font-size: 16px;
     background: var(--interactive-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
